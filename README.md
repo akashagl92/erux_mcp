@@ -1,5 +1,6 @@
 # ERUX Astrology & Ephemeris MCP Server
 
+[![smithery badge](https://smithery.ai/badge/akash-agl92/erux_mcp)](https://smithery.ai/servers/akash-agl92/erux_mcp)
 [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-io.github.akashagl92%2Ferux--astrology-blue?logo=github)](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.akashagl92%2Ferux-astrology/versions/1.0.1)
 [![Transport](https://img.shields.io/badge/Transport-Streamable%20HTTP%20SSE-success)](#quickstart)
 [![Version](https://img.shields.io/badge/Version-1.0.1-brightgreen)](#)
@@ -31,6 +32,7 @@ ERUX provides **1:1 command parity** across its MCP server, web application, and
 | Platform | Channel / Access | Features |
 | :--- | :--- | :--- |
 | **MCP Server** | `https://api.erux.ai/mcp` | Direct integration for Claude, Cursor, Windsurf, Open-WebUI, and AI Agents |
+| **Smithery** | [View on Smithery](https://smithery.ai/servers/akash-agl92/erux_mcp) | 1-Click CLI installer (`npx -y @smithery/cli run @akash-agl92/erux_mcp --client claude`) |
 | **Discord Bot** | [Add to Discord Server](https://discord.com/oauth2/authorize?client_id=1532467179491164183) | Interactive slash commands: `/chart`, `/horoscope`, `/dasha`, `/yogas`, `/ask` |
 | **Discord Community** | [Join Community](https://discord.gg/cykwmxQ3K) | Astrologer community discussions, release updates, and developer support |
 | **ChatGPT** | OpenAI Plugin (In Review) | Direct conversational astrological chart synthesis, Vimshottari Dasha, and transits |
@@ -111,7 +113,16 @@ Navigate to **Admin Panel > Settings > Tools / MCP** and register the remote SSE
 
 ---
 
-### 5. Python / LangChain / CrewAI Agents
+### 5. Smithery CLI (Automated 1-Click Install)
+To automatically configure and connect ERUX to Claude Desktop using [Smithery](https://smithery.ai/servers/akash-agl92/erux_mcp):
+
+```bash
+npx -y @smithery/cli run @akash-agl92/erux_mcp --client claude
+```
+
+---
+
+### 6. Python / LangChain / CrewAI Agents
 
 ```python
 from mcp import ClientSession
