@@ -1,8 +1,8 @@
 # ERUX Astrology & Ephemeris MCP Server
 
-[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-io.github.akashagl92%2Ferux--astrology-blue?logo=github)](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.akashagl92%2Ferux-astrology/versions/1.0.0)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-io.github.akashagl92%2Ferux--astrology-blue?logo=github)](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.akashagl92%2Ferux-astrology/versions/1.0.1)
 [![Transport](https://img.shields.io/badge/Transport-Streamable%20HTTP%20SSE-success)](#quickstart)
-[![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)](#)
+[![Version](https://img.shields.io/badge/Version-1.0.1-brightgreen)](#)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/cykwmxQ3K)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -225,7 +225,7 @@ Ask your MCP-connected model:
 - **Developer MCP Documentation**: [https://erux.ai/developers/mcp](https://erux.ai/developers/mcp)
 - **Discord Bot**: [Invite Bot](https://discord.com/oauth2/authorize?client_id=1532467179491164183)
 - **Community Discord**: [Join Community](https://discord.gg/cykwmxQ3K)
-- **Official MCP Registry**: [Registry Link](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.akashagl92%2Ferux-astrology/versions/1.0.0)
+- **Official MCP Registry**: [Registry Link](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.akashagl92%2Ferux-astrology/versions/1.0.1)
 
 ---
 
