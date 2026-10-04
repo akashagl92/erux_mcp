@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.akashagl92/erux-astrology",
+  "title": "ERUX Astrology & Ephemeris Engine",
+  "description": "Ephemeris natal & mundane charts, Vimshottari Dasha, transit horoscopes, Horas, and Vedic yogas.",
+  "version": "1.0.0",
+  "websiteUrl": "https://erux.ai/developers/mcp",
+  "icons": [
+    {
+      "src": "https://erux.ai/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.erux.ai/mcp"
+    }
+  ]
+}
