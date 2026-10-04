@@ -33,7 +33,7 @@ ERUX provides **1:1 command parity** across its MCP server, web application, and
 | **MCP Server** | `https://api.erux.ai/mcp` | Direct integration for Claude, Cursor, Windsurf, Open-WebUI, and AI Agents |
 | **Discord Bot** | [Add to Discord Server](https://discord.com/oauth2/authorize?client_id=1532467179491164183) | Interactive slash commands: `/chart`, `/horoscope`, `/dasha`, `/yogas`, `/ask` |
 | **Discord Community** | [Join Community](https://discord.gg/cykwmxQ3K) | Astrologer community discussions, release updates, and developer support |
-| **Google Chat Bot** | Workspace Integration | Direct Google Chat app for organizational horoscopes and mundane cycles |
+| **ChatGPT** | OpenAI Plugin (In Review) | Direct conversational astrological chart synthesis, Vimshottari Dasha, and transits |
 | **Web Platform** | [erux.ai](https://erux.ai) | Full visual interactive wheels, multi-varga divisional charts (D1–D60), transits |
 
 ---
