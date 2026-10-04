@@ -12,19 +12,19 @@ Connect **Claude Desktop**, **Cursor**, **Windsurf**, **Open-WebUI**, **LibreCha
 
 ---
 
-## 🌟 Key Capabilities
+## Key Capabilities
 
 - **High-Precision Ephemeris Calculations**: Sub-arcsecond planetary coordinates for Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn, Rahu, Ketu, Uranus, Neptune, Pluto, and Chiron.
-- **Hybrid Insight Model (Dual-Zodiac Decoupling)**: Simultaneously evaluates Western Tropical Placidus (psychological/temperamental wiring) alongside Vedic Sidereal Lahiri (karmic timing and dasha epochs).
+- **Hybrid Insight Model (Dual-Zodiac Decoupling)**: Simultaneously evaluates Western Tropical Placidus (psychological and temperamental wiring) alongside Vedic Sidereal Lahiri (karmic timing and Dasha epochs).
 - **120-Year Parashara Vimshottari Timeline**: Multi-level Mahadasha, Antardasha, and Pratyantardasha hierarchy with exact date boundaries down to the hour.
 - **Real-Time Transit Horoscopes**: Continuous tracking of planetary transits against natal chart cusps with structured transit aspect predictions.
-- **Topocentric 24-Hora & Muhurta Engine**: Dynamic planetary hours (Horas) tied to local solar sunrise/sunset, plus Rahu Kaal, Yamaganda, Gulika, and Abhijit Muhurta.
+- **Topocentric 24-Hora & Muhurta Engine**: Dynamic planetary hours (Horas) tied to local solar sunrise and sunset, plus Rahu Kaal, Yamaganda, Gulika, and Abhijit Muhurta.
 - **Classical Vedic Yoga Detection**: Algorithmic identification of Raja, Dhana, Pancha Mahapurusha, and Gaja Kesari yogas with planetary trigger explanations.
 - **Interactive Visual Wheel Generation**: Tools automatically return interactive visual chart wheel URLs (`https://erux.ai/chart?id=...`) and rendered PNG previews.
 
 ---
 
-## 🚀 Omnichannel Bot Ecosystem & Community
+## Omnichannel Bot Ecosystem & Community
 
 ERUX provides **1:1 command parity** across its MCP server, web application, and chat integrations:
 
@@ -38,7 +38,7 @@ ERUX provides **1:1 command parity** across its MCP server, web application, and
 
 ---
 
-## ⚡ Quickstart: Adding to Your MCP Client
+## Quickstart: Adding to Your MCP Client
 
 ERUX runs as a **remote Streamable HTTP (SSE) server**. No local package installation, `pip install`, or `npx` compilation is required.
 
@@ -138,7 +138,7 @@ async def run_astrology_agent():
 
 ---
 
-## 🛠️ Tool Catalog
+## Tool Catalog
 
 ERUX exposes 6 deterministic tools to the host model:
 
@@ -170,7 +170,7 @@ ERUX exposes 6 deterministic tools to the host model:
   - `time` (*string*, HH:MM): 24-hour birth time.
   - `city` (*string*): Birth city.
   - `target_date` (*optional string*): Target date to inspect active sub-periods.
-- **Outputs**: 120-year Mahadasha timeline with full Antardasha and Pratyantardasha start/end dates.
+- **Outputs**: 120-year Mahadasha timeline with full Antardasha and Pratyantardasha start and end dates.
 
 ### 4. `get_yogas`
 *Identifies classical Vedic yogas and active planetary formations.*
@@ -198,19 +198,19 @@ ERUX exposes 6 deterministic tools to the host model:
 
 ---
 
-## 💬 Example Prompts
+## Example Prompts
 
 Ask your MCP-connected model:
 
-- *"What is my current Vimshottari Mahadasha and Antardasha? Born October 14, 1992 at 2:30 PM in Austin, Texas."*
-- *"Show my complete birth chart wheel and calculate my Vedic yogas."*
-- *"What are the best astronomical Horas for business negotiations today in London?"*
-- *"Calculate the national mundane chart for France and summarize its key planetary placements."*
-- *"I'm planning a career transition next month. Based on my natal placements, what planetary transits are active?"*
+- "What is my current Vimshottari Mahadasha and Antardasha? Born October 14, 1992 at 2:30 PM in Austin, Texas."
+- "Show my complete birth chart wheel and calculate my Vedic yogas."
+- "What are the best astronomical Horas for business negotiations today in London?"
+- "Calculate the national mundane chart for France and summarize its key planetary placements."
+- "I am planning a career transition next month. Based on my natal placements, what planetary transits are active?"
 
 ---
 
-## 🔒 Security & Architecture
+## Security & Architecture
 
 - **Hosted Remote Endpoint**: All astronomical calculations execute on secure, hardened ERUX cloud infrastructure (`api.erux.ai`).
 - **No Local Code Execution**: Connecting to ERUX does not execute arbitrary binaries or scripts on your local machine.
@@ -219,7 +219,7 @@ Ask your MCP-connected model:
 
 ---
 
-## 📚 Resources & Links
+## Resources & Links
 
 - **Web Application**: [https://erux.ai](https://erux.ai)
 - **Developer MCP Documentation**: [https://erux.ai/developers/mcp](https://erux.ai/developers/mcp)
@@ -229,7 +229,7 @@ Ask your MCP-connected model:
 
 ---
 
-## 📄 License
+## License
 
 This repository and its configuration schemas are licensed under the [MIT License](LICENSE).
 Calculations and data provided via the ERUX API are subject to the [ERUX Terms of Service](https://erux.ai/terms).
